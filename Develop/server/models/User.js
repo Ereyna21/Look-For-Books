@@ -17,7 +17,7 @@ const userSchema = new Schema(
       unique: true,
       match: [/.+@.+\..+/, 'Must use a valid email address'],
     },
-    password: {
+    bookCount: {
       type: String,
       required: true,
     },
